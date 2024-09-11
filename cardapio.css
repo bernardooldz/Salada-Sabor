@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+body{
+    background-color: #fff;
+}
+
+section{
+    padding: 28px 8%;
+}
+
+ul{
+    list-style: none;
+}
+
+
+#topo_geral{
+    background-color: #cac9c9;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#topo_geral ul{
+    gap: 15rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#social_media_topo_geral a{
+    margin-right: 1rem;
+}
+
+
+#header_nav{
+    background-color: #8EA695;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 8%;
+}
+
+#header_nav a{
+    color: #fff;
+    font-weight: 800;
+}
+
+#active_nav a{
+    border-bottom: #fff 2px solid;
+}
+
+#header_nav input{
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    padding-left: 10%;
+}
+
+.icons_nav a{
+    color: #000000;
+    margin-right: 1.3rem;
+    font-size: 1.3rem;
+}
+
+#header_nav ul{
+    gap: 6rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#logo{
+    color: #1c1c1c;
+}
+
+#traco_preto{
+    width: 100%;
+    height: 1.5px;
+    background-color: #3b3b3b;
+}
+
+footer{
+    background-color: #8EA695;
+}
+
+#grid_rodape{
+    margin-inline: 17%;
+    display: flex;
+    justify-content: center;
+    padding-block: 4vh;
+    display: grid;
+    column-gap: 2%;
+    grid-template-rows: 3vh 23Vh;
+    grid-template-columns: 15% 15% 32% 32%;
+}
+
+.Rodape_navegacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.Rodape_navegacao a{
+    color: #2E4F37;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.titulos_rodape{
+    color: #2E4F37;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.rodape_horarios p{
+    color: #2E4F37;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.titulos_rodape2{
+    color: #2E4F37;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 40px;
+}
+
+#logo2{
+    color: #1c1c1c;
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+#rodape_mensagem{
+    margin-top: 7px;
+}
+
+#rodape_mensagem input{
+    padding: 8px;
+    border: none;
+}
+
+#btn_mnsg{
+    background-color: #506b58;
+    border: none;
+    padding: 8px;
+    margin-left: -5px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#social_media_rodape{
+    margin-top: 40px;
+}
+
+#social_media_rodape a{
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#fim{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    background-color: #cac9c9;
+}
+
+#h1_1{
+    text-align: center;
+    color: #2E4F37;
+    font-weight: 100;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+#banner{
+    width: 100%;
+    padding-inline: 0;
+    padding-top: 0;
+    height: 38vh;
+}
+
+#banner img{
+    object-fit: cover;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    filter: brightness(40%);
+}
+
+#categorias{
+    margin-top: 50px;
+    margin-inline: auto;
+}
+
+#categorias h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #2E4f37;
+}
+
+#categorias ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-inline: auto;
+    width: 50%;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.li_verde_fundo{
+    background-color: #4a6452;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.li_verde_fundo:hover{
+    transform: scale(120%);
+}
+
+#categorias img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    object-fit: cover;
+}
+
+h6 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #2E4f37;
+    width: 120px;
+    height: 4px;
+    margin-inline: auto;
+}
+
+.li_categorias{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.li_categories h3{
+    color: #2E4f37;
+    font-size: 1rem;
+}
+
+#produtos{
+    background-image: url(360_F_135628942_wAZhAFbDfQpTI533KoCSG3Vq9YfuSA8F.jpg);
+    flex-direction: column;
+    margin-top: 2%;
+    padding-bottom: 3%;
+}
+
+#grid_home_pedidos{
+    display: grid;
+    margin-inline: 10%;
+    gap: 5%;
+    margin-top: 3vh;
+    grid-template-columns: 15rem 15rem 15rem 15rem;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+}
+
+#grid_home_pedidos div{
+    border: #3c5c45 1px solid;
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    transition: .5s;
+    background-color: #8EA695;
+}
+
+#grid_home_pedidos div:hover{
+    transform: scale(110%);
+}
+
+#grid_home_pedidos>div>div{
+    border: none;
+    padding: 0;
+    height: 120px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+#grid_home_pedidos img{
+    border: #3c5c45 1px solid;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+#grid_home_pedidos h2{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #2E4f37;
+    margin-bottom: 5%;
+}
+
+#grid_home_pedidos p span{
+    text-align: center;
+    font-size: 0.8rem;
+    color: #2E4F37;
+}
+
+#grid_home_pedidos p{
+    text-align: justify;
+    margin-inline: 5%;
+    font-size: 0.85rem;
+    color: #1c1c1c;
+    margin-bottom: 5%;
+}
+
+#grid_home_pedidos h3{
+    text-align: center;
+    font-size: 1rem;
+    color: #2E4f37;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#grid_home_pedidos a{
+    font-size: 1.5rem;
+    color: #2E4f37;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+#grid_home_pedidos a:hover{
+    transform: scale(120%);
+}
+
+#produtos h1{
+    color: #2E4f37;
+    font-size: 1.7rem;
+    margin-left: 12%;
+    margin-top: 4%;
+}
+
+#produtos>h1>span{
+    text-decoration: underline 3px;
+}
